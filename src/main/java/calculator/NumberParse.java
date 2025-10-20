@@ -17,7 +17,6 @@ public class NumberParse {
             throw new IllegalArgumentException("숫자가 아닌 값이 포함되어 있습니다.");
         }
     }
-
     private static void validateNumber(int num){
         if(num < 0) throw new IllegalArgumentException("음수값은 허용되지 않습니다");
     }
